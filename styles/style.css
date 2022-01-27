@@ -193,50 +193,6 @@ footer p {
     phone 
 ------------ */
 
-/* @media only screen and (max-width:480px) {
-    .container {
-        width: 100%;
-    }
-    header .top-header {
-        display: none;
-    }
-    .bottom-header {
-        flex-direction: column;
-        width: 100%;
-        margin: 0px 15px;
-    }
-  
-    .bottom-header-images img {
-        right: 0px;
-        width: 368px;
-        top: 60px;
-    }
-    main {
-        padding-top: 30px;
-    }
-    .players {
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 30px;
-    }
-    .players article {
-
-    } 
-    .highlights {
-        flex-direction: column;
-        margin: 40px 20px;
-    }
-    .highlights-texts {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .highlights-image {
-        width: 100%;
-    }
-    footer img {
-        width: 70%;
-    }
-} */
-
 @media only screen and (max-width:480px) {
     .container {
         width: 100%;
@@ -253,6 +209,10 @@ footer p {
     .bottom-header-texts {
         width: 100%;
     }
+    .bottom-header-texts h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
     .bottom-header-images {
         width: 100%;
     }
@@ -266,6 +226,9 @@ footer p {
         margin-top: 30px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .players article {
+        width: 100%;
+    }
     .highlights {
         flex-direction: column;
     }
@@ -278,15 +241,5 @@ footer p {
     }
     footer img {
         width: 70%;
-    }
-}
-
-@media (max-width: 479px) {
-    .bottom-header-texts h1 {
-        font-size: 32px;
-        line-height: 42px;
-    }
-    .players article {
-        width: 100%;
     }
 }
